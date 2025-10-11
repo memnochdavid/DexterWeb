@@ -12,6 +12,11 @@ export default function Lista() {
     const loaderRef = useRef(null);
     const limit = 20; // nº de Pokémon por página
 
+    function getMiniatura(id) {
+        const idPadded = String(id).padStart(4, '0');
+        return `https://resource.pokemon-home.com/battledata/img/pokei128/icon${idPadded}_f00_s0.png`;
+    }
+
     useEffect(() => {
         loadMorePokemon();
     }, []);
@@ -35,7 +40,14 @@ export default function Lista() {
                 data.results.map(p => getPokemonDetails(p.url))
             );
 
-            setPokemonList(prev => [...prev, ...details]);
+            setPokemonList(prev => {
+                // Evita duplicados por id
+                const unique = [...prev, ...details].filter(
+                    (p, index, self) => index === self.findIndex(t => t.id === p.id)
+                );
+                return unique;
+            });
+
             setOffset(prev => prev + limit);
             if (!data.next) setHasMore(false);
         } catch (error) {
@@ -44,7 +56,7 @@ export default function Lista() {
             setLoading(false);
         }
     };
-
+    console.log("POKEMON LIST >>>", pokemonList);
     return (
         <div className="pokemon-list-page" style={{ padding: "20px" }}>
             <h2>Lista de Pokémon</h2>
@@ -54,16 +66,15 @@ export default function Lista() {
                 gap: "20px",
                 justifyItems: "center"
             }}>
-
-                {pokemonList.map((pokemon, index) => (
+                {pokemonList.map((pokemon) => (
                     <PokemonCardLista
-                        key={`${pokemon.name || pokemon.id || index}`}  // ✅ única siempre
+                        key={pokemon.id || pokemon.name} // 👈 clave única y correcta
                         pokemon={{
                             id: pokemon.id,
                             nombre: pokemon.name,
-                            tipos: pokemon.types?.map((t) => t.type.name) || [],
-                            habilidades: pokemon.abilities?.map((a) => a.ability.name) || [],
-                            miniatura: getMiniatura(pokemon.id),
+                            tipos: pokemon.types.map((t) => t.type.name),
+                            habilidades: pokemon.abilities.map((a) => a.ability.name),
+                            miniatura: getMiniatura(pokemon.id), // 👈 la miniatura como en el backend
                             descripcion: "",
                         }}
                     />
@@ -77,8 +88,5 @@ export default function Lista() {
         </div>
     );
 
-    function getMiniatura(id) {
-        const idPadded = String(id).padStart(4, '0');
-        return `https://resource.pokemon-home.com/battledata/img/pokei128/icon${idPadded}_f00_s0.png`;
-    }
+
 }

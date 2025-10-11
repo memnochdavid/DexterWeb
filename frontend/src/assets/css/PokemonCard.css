@@ -61,58 +61,126 @@
 }
 
 
-/*horizontal*/
-
+/* ---------- Tarjeta horizontal responsive ---------- */
 .card-horizontal {
     display: flex;
     flex-direction: row;
-    border-radius: 12px;
+    align-items: center;
+    border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 15px auto;
     width: 100%;
-    max-width: 600px;
-    min-height: 150px;
+    max-width: 700px;
+    min-height: 160px;
     color: #fff;
-    transition: transform 0.15s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
 .card-horizontal:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
 }
 
 .image-container-horizontal {
-    flex: 0 0 150px; /* ancho fijo de la imagen */
+    flex: 0 0 130px;
     display: flex;
     align-items: center;
     justify-content: center;
-    /*background: rgba(255,255,255,0.1); !* opcional *!*/
+    padding: 10px;
 }
 
 .image-container-horizontal img {
     width: 100px;
     height: 100px;
-    object-fit: fill;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+.image-container-horizontal img:hover {
+    transform: scale(1.1);
 }
 
 .info-container-horizontal {
     flex: 1;
     display: flex;
     flex-direction: column;
-    padding: 10px 15px;
     justify-content: center;
+    padding: 15px;
+}
+
+.name-type h3,
+.name-type h4 {
+    margin: 0;
+    line-height: 1.2;
 }
 
 .name-type h3 {
-    margin: 0 0 5px 0;
+    font-size: 1.4rem;
+}
+
+.name-type h4 {
+    font-size: 1rem;
+    opacity: 0.85;
 }
 
 .types-container {
     display: flex;
-    gap: 5px;
-    margin-bottom: 10px;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
 }
 
-.abilities-desc p {
-    margin: 2px 0;
-    font-size: 0.9rem;
+/* ---------- Responsividad ---------- */
+@media (max-width: 768px) {
+    .card-horizontal {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        min-height: auto;
+        max-width: 90%;
+    }
+
+    .image-container-horizontal {
+        flex: 0 0 auto;
+        padding: 15px 0;
+    }
+
+    .image-container-horizontal img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .info-container-horizontal {
+        padding: 10px;
+    }
+
+    .name-type h3 {
+        font-size: 1.2rem;
+    }
+
+    .name-type h4 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-horizontal {
+        max-width: 100%;
+        margin: 10px;
+        border-radius: 12px;
+    }
+
+    .image-container-horizontal img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .name-type h3 {
+        font-size: 1rem;
+    }
+
+    .types-container {
+        justify-content: center;
+    }
 }

@@ -97,25 +97,25 @@ para arrancar:
 
 
 estructura actual:
-frontend/
- ├── public/
- │    └── index.html            # equivalente a index.php
- ├── src/
- │    ├── pages/                # páginas “separadas”
- │    │    ├── Home.jsx         # página principal
- │    │    ├── About.jsx
- │    │    ├── Contact.jsx
- │    │    └── Productos.jsx
- │    ├── components/           # includes (header, footer, tarjetas, etc.)
- │    │    ├── Header.jsx
- │    │    ├── Footer.jsx
- │    │    └── PokemonCard.jsx
- │    ├── config/               # configuraciones JS
- │    │    └── apiConfig.js
- │    ├── assets/
- │    │    ├── css/
- │    │    ├── js/
- │    │    └── img/
- │    ├── App.jsx
- │    └── main.jsx
- └── package.json
+    frontend/src/
+     ├── index.jsx
+     ├── App.jsx
+     ├── assets/
+     │    ├── css/
+     │    ├── js/
+     │    └── img/
+     ├── components/
+     │    ├── Header.jsx
+     │    ├── Footer.jsx
+     │    └── PokemonCard.jsx
+     ├── context/
+     │    └── AuthContext.jsx
+     └── pages/
+          ├── Home.jsx
+          ├── About.jsx
+          └── Contact.jsx
+
+
+
+sitio de estilos css:
+https://freefrontend.com/

@@ -2,6 +2,7 @@ import {useState} from "react";
 import {getPokemon} from "../api";
 import {useAuth} from "../context/AuthContext";
 import PokemonCard from "../components/PokemonCard";
+import PokemonCardLista from "../components/PokemonCardLista";
 import '../assets/css/Home.css';
 
 export default function Home() {
@@ -21,13 +22,18 @@ export default function Home() {
     };
 
     return (
-        <div>
+        <div className="home-container">
             <div className="search">
                 <h2>Buscar Pokémon</h2>
-                <input value={nombrePokemon} onChange={e => setNombrePokemon(e.target.value)}/>
+                <input className={"input_text"} value={nombrePokemon} onChange={e => setNombrePokemon(e.target.value)}/>
                 <button onClick={handleGetPokemon}>Buscar</button>
             </div>
-            <PokemonCard pokemon={pokemon}/>
+            <div className="card_lista">
+                <PokemonCardLista pokemon={pokemon}/>
+            </div>
+            <div className="card_grande">
+                <PokemonCard pokemon={pokemon}/>
+            </div>
         </div>
     );
 }

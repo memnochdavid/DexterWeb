@@ -20,6 +20,7 @@ export default function Header() {
                 <div id="navbar_buttons">
                     {/*<img id="logo" src="../../public/dexter_square.png" alt="logo"/>*/}
                     <Link className={"navbar_button"} to="/"><img id="logo" src="../../public/dexter_square.png" alt="logo"/></Link>
+                    <Link className={"navbar_button"} to="/lista">Lista</Link>
                     <Link className={"navbar_button"} to="/about">About</Link>
                     <Link className={"navbar_button"} to="/contact">Contact</Link>
                 </div>
@@ -28,8 +29,8 @@ export default function Header() {
                         <button className={"button_login"} onClick={logout}>Logout</button>
                     ) : (
                         <>
-                            <input className={"input_login"} value={email} onChange={e => setEmail(e.target.value)} placeholder="Email"/>
-                            <input className={"input_login"} value={password} onChange={e => setPassword(e.target.value)} type="password"/>
+                            <input className={"input_text"} value={email} onChange={e => setEmail(e.target.value)} placeholder="Email"/>
+                            <input className={"input_text"} value={password} onChange={e => setPassword(e.target.value)} type="password"/>
                             <button className={"button_login"} onClick={handleLogin}>Login</button>
                         </>
                     )}

@@ -1,0 +1,15 @@
+.pokemon-list-page {
+    text-align: center;
+}
+
+.pokemon-grid {
+    margin-top: 20px;
+}
+
+.pokemon-card {
+    transition: transform 0.3s;
+}
+
+.pokemon-card:hover {
+    transform: scale(1.05);
+}

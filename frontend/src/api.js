@@ -15,3 +15,17 @@ export const getPokemon = async (name, token, lang = "es") => {
     });
     return response.data;
 };
+
+const BASE_URL = "https://pokeapi.co/api/v2/pokemon";
+
+export async function getPokemonList(limit = 5, offset = 0) {
+    const response = await fetch(`${BASE_URL}?limit=${limit}&offset=${offset}`);
+    if (!response.ok) throw new Error("Error al obtener lista de Pokémon");
+    return await response.json();
+}
+
+export async function getPokemonDetails(url) {
+    const response = await fetch(url);
+    if (!response.ok) throw new Error("Error al obtener detalles del Pokémon");
+    return await response.json();
+}

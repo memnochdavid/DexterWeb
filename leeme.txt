@@ -88,6 +88,7 @@ para arrancar:
     un terminar para:
         symfony server:log
     un terminal para:
+        desde DexterWeb/backend/
         symfony server:start
         symfony server:stop
     un terminal para:

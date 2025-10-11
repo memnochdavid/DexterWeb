@@ -1,0 +1,166 @@
+1760179563
+a5254b2f24b3b54235bdcb0460c3268b
+O:1:"�":1:{s:6:"䑬p";a:27:{s:14:"base_happiness";i:0;s:12:"capture_rate";i:3;s:5:"color";a:2:{s:4:"name";s:6:"purple";s:3:"url";s:42:"https://pokeapi.co/api/v2/pokemon-color/7/";}s:10:"egg_groups";a:1:{i:0;a:2:{s:4:"name";s:7:"no-eggs";s:3:"url";s:39:"https://pokeapi.co/api/v2/egg-group/15/";}}s:15:"evolution_chain";a:1:{s:3:"url";s:45:"https://pokeapi.co/api/v2/evolution-chain/77/";}s:20:"evolves_from_species";N;s:19:"flavor_text_entries";a:74:{i:0;a:3:{s:11:"flavor_text";s:100:"It was created by
+a scientist after
+years of horrificgene splicing and
+DNA engineering
+experiments.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:3:"red";s:3:"url";s:36:"https://pokeapi.co/api/v2/version/1/";}}i:1;a:3:{s:11:"flavor_text";s:100:"It was created by
+a scientist after
+years of horrificgene splicing and
+DNA engineering
+experiments.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:4:"blue";s:3:"url";s:36:"https://pokeapi.co/api/v2/version/2/";}}i:2;a:3:{s:11:"flavor_text";s:95:"Its DNA is almost
+the same as MEW's.
+However, its sizeand disposition
+are vastly dif­
+ferent.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:6:"yellow";s:3:"url";s:36:"https://pokeapi.co/api/v2/version/3/";}}i:3;a:3:{s:11:"flavor_text";s:104:"Because its battle
+abilities were
+raised to theultimate level, it
+thinks only of de­
+feating its foes.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:4:"gold";s:3:"url";s:36:"https://pokeapi.co/api/v2/version/4/";}}i:4;a:3:{s:11:"flavor_text";s:104:"It usually remains
+motionless to con­
+serve energy, sothat it may un­
+leash its full
+power in battle.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:6:"silver";s:3:"url";s:36:"https://pokeapi.co/api/v2/version/5/";}}i:5;a:3:{s:11:"flavor_text";s:95:"Said to rest qui­
+etly in an
+undiscovered cave,this POKéMON was
+created solely for
+battling.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:7:"crystal";s:3:"url";s:36:"https://pokeapi.co/api/v2/version/6/";}}i:6;a:3:{s:11:"flavor_text";s:202:"MEWTWO is a POKéMON that was created
+by genetic manipulation.
+However, even though the scientificpower of humans created this POKéMON’s
+body, they failed to endow MEWTWO with
+a compassionate heart.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:4:"ruby";s:3:"url";s:36:"https://pokeapi.co/api/v2/version/7/";}}i:7;a:3:{s:11:"flavor_text";s:202:"MEWTWO is a POKéMON that was created
+by genetic manipulation.
+However, even though the scientificpower of humans created this POKéMON’s
+body, they failed to endow MEWTWO with
+a compassionate heart.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:8:"sapphire";s:3:"url";s:36:"https://pokeapi.co/api/v2/version/8/";}}i:8;a:3:{s:11:"flavor_text";s:156:"A POKéMON that was created by genetic
+manipulation. However, even though the
+scientific power of humans made its body,
+they failed to give it a warm heart.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:7:"emerald";s:3:"url";s:36:"https://pokeapi.co/api/v2/version/9/";}}i:9;a:3:{s:11:"flavor_text";s:100:"A POKéMON whose genetic code was
+repeatedly recombined for research.
+It turned vicious as a result.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:7:"firered";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/10/";}}i:10;a:3:{s:11:"flavor_text";s:101:"It was created by a scientist after years
+of horrific gene-splicing and DNA-
+engineering experiments.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:9:"leafgreen";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/11/";}}i:11;a:3:{s:11:"flavor_text";s:106:"A Pokémon created by recombining
+MEW’s genes. It’s said to have the
+most savage heart among Pokémon.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:7:"diamond";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/12/";}}i:12;a:3:{s:11:"flavor_text";s:106:"A Pokémon created by recombining
+MEW’s genes. It’s said to have the
+most savage heart among Pokémon.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:5:"pearl";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/13/";}}i:13;a:3:{s:11:"flavor_text";s:106:"A Pokémon created by recombining
+MEW’s genes. It’s said to have the
+most savage heart among Pokémon.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:8:"platinum";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/14/";}}i:14;a:3:{s:11:"flavor_text";s:101:"Because its battle abilities were
+raised to the ultimate level,
+it thinks only of defeating its foes.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:9:"heartgold";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/15/";}}i:15;a:3:{s:11:"flavor_text";s:98:"It usually remains motionless to
+conserve energy, so that it may
+unleash its full power in battle.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:10:"soulsilver";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/16/";}}i:16;a:3:{s:11:"flavor_text";s:111:"Un Pokémon conçu en réorganisant
+les gènes de Mew. On raconte qu’il
+s’agit du Pokémon le plus féroce.";s:8:"language";a:2:{s:4:"name";s:2:"fr";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/5/";}s:7:"version";a:2:{s:4:"name";s:5:"black";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/17/";}}i:17;a:3:{s:11:"flavor_text";s:106:"A Pokémon created by recombining
+Mew’s genes. It’s said to have the
+most savage heart among Pokémon.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:5:"black";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/17/";}}i:18;a:3:{s:11:"flavor_text";s:111:"Un Pokémon conçu en réorganisant
+les gènes de Mew. On raconte qu’il
+s’agit du Pokémon le plus féroce.";s:8:"language";a:2:{s:4:"name";s:2:"fr";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/5/";}s:7:"version";a:2:{s:4:"name";s:5:"white";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/18/";}}i:19;a:3:{s:11:"flavor_text";s:106:"A Pokémon created by recombining
+Mew’s genes. It’s said to have the
+most savage heart among Pokémon.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:5:"white";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/18/";}}i:20;a:3:{s:11:"flavor_text";s:106:"A Pokémon created by recombining
+Mew’s genes. It’s said to have the
+most savage heart among Pokémon.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:7:"black-2";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/21/";}}i:21;a:3:{s:11:"flavor_text";s:106:"A Pokémon created by recombining
+Mew’s genes. It’s said to have the
+most savage heart among Pokémon.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:7:"white-2";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/22/";}}i:22;a:3:{s:11:"flavor_text";s:155:"ひとりの　かがくしゃが　なんねんも
+おそろしい　いでんし　けんきゅうを
+つづけた　けっか　たんじょうした。";s:8:"language";a:2:{s:4:"name";s:7:"ja-Hrkt";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/1/";}s:7:"version";a:2:{s:4:"name";s:1:"x";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/23/";}}i:23;a:3:{s:11:"flavor_text";s:98:"한 과학자가 몇 년에 걸쳐
+무서운 유전자의 연구를
+계속한 결과 탄생했다.";s:8:"language";a:2:{s:4:"name";s:2:"ko";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/3/";}s:7:"version";a:2:{s:4:"name";s:1:"x";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/23/";}}i:24;a:3:{s:11:"flavor_text";s:79:"Il est le fruit de nombreuses expériences génétiques
+horribles et malsaines.";s:8:"language";a:2:{s:4:"name";s:2:"fr";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/5/";}s:7:"version";a:2:{s:4:"name";s:1:"x";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/23/";}}i:25;a:3:{s:11:"flavor_text";s:81:"Dieses Pokémon ist das Resultat eines jahrelangen
+und skrupellosen Experimentes.";s:8:"language";a:2:{s:4:"name";s:2:"de";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/6/";}s:7:"version";a:2:{s:4:"name";s:1:"x";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/23/";}}i:26;a:3:{s:11:"flavor_text";s:92:"Fue creado por un científico tras años de horribles
+experimentos de ingeniería genética.";s:8:"language";a:2:{s:4:"name";s:2:"es";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/7/";}s:7:"version";a:2:{s:4:"name";s:1:"x";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/23/";}}i:27;a:3:{s:11:"flavor_text";s:82:"Creato da uno scienziato dopo anni di orribili
+esperimenti di ingegneria genetica.";s:8:"language";a:2:{s:4:"name";s:2:"it";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/8/";}s:7:"version";a:2:{s:4:"name";s:1:"x";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/23/";}}i:28;a:3:{s:11:"flavor_text";s:100:"It was created by a scientist after years of horrific
+gene-splicing and DNA-engineering experiments.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:1:"x";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/23/";}}i:29;a:3:{s:11:"flavor_text";s:110:"１人の　科学者が　何年も
+恐ろしい　遺伝子　研究を
+続けた　結果　誕生した。";s:8:"language";a:2:{s:4:"name";s:2:"ja";s:3:"url";s:38:"https://pokeapi.co/api/v2/language/11/";}s:7:"version";a:2:{s:4:"name";s:1:"x";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/23/";}}i:30;a:3:{s:11:"flavor_text";s:155:"ミュウの　いでんしを　くみかえて
+うみだされた。ポケモンで　いちばん
+きょうぼうな　こころを　もつという。";s:8:"language";a:2:{s:4:"name";s:7:"ja-Hrkt";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/1/";}s:7:"version";a:2:{s:4:"name";s:1:"y";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/24/";}}i:31;a:3:{s:11:"flavor_text";s:127:"뮤의 유전자를 재구성해서
+만들어졌다. 포켓몬 중에서 가장
+난폭한 마음을 가지고 있다고 한다.";s:8:"language";a:2:{s:4:"name";s:2:"ko";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/3/";}s:7:"version";a:2:{s:4:"name";s:1:"y";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/24/";}}i:32;a:3:{s:11:"flavor_text";s:111:"Un Pokémon conçu en réorganisant les gènes de
+Mew. On raconte qu’il s’agit du Pokémon le plus
+féroce.";s:8:"language";a:2:{s:4:"name";s:2:"fr";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/5/";}s:7:"version";a:2:{s:4:"name";s:1:"y";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/24/";}}i:33;a:3:{s:11:"flavor_text";s:97:"Die Gene von Mew wurden neu angeordnet, wodurch
+dieses Pokémon entstand. Es hat ein wildes Herz.";s:8:"language";a:2:{s:4:"name";s:2:"de";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/6/";}s:7:"version";a:2:{s:4:"name";s:1:"y";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/24/";}}i:34;a:3:{s:11:"flavor_text";s:100:"Pokémon creado por recombinación genética de Mew.
+Se dice que es el más salvaje de los Pokémon.";s:8:"language";a:2:{s:4:"name";s:2:"es";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/7/";}s:7:"version";a:2:{s:4:"name";s:1:"y";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/24/";}}i:35;a:3:{s:11:"flavor_text";s:106:"Un Pokémon creato usando i geni di Mew. Si dice che
+fra i Pokémon sia quello con l’animo più crudele.";s:8:"language";a:2:{s:4:"name";s:2:"it";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/8/";}s:7:"version";a:2:{s:4:"name";s:1:"y";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/24/";}}i:36;a:3:{s:11:"flavor_text";s:106:"A Pokémon created by recombining Mew’s genes.
+It’s said to have the most savage heart
+among Pokémon.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:1:"y";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/24/";}}i:37;a:3:{s:11:"flavor_text";s:131:"ミュウの　遺伝子を　組み替えて
+生み出された。ポケモンで　一番
+凶暴な　心を　持つという。";s:8:"language";a:2:{s:4:"name";s:2:"ja";s:3:"url";s:38:"https://pokeapi.co/api/v2/language/11/";}s:7:"version";a:2:{s:4:"name";s:1:"y";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/24/";}}i:38;a:3:{s:11:"flavor_text";s:218:"いでんしそうさに　よって　つくられた　ポケモン。
+にんげんの　かがくりょくで　からだは　つくれても
+やさしい　こころを　つくることは　できなかった。";s:8:"language";a:2:{s:4:"name";s:7:"ja-Hrkt";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/1/";}s:7:"version";a:2:{s:4:"name";s:10:"omega-ruby";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/25/";}}i:39;a:3:{s:11:"flavor_text";s:153:"유전자조작을 통해 만들어진 포켓몬이다.
+인간은 과학의 힘으로 몸은 만들었지만
+상냥한 마음을 만들 수는 없었다.";s:8:"language";a:2:{s:4:"name";s:2:"ko";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/3/";}s:7:"version";a:2:{s:4:"name";s:10:"omega-ruby";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/25/";}}i:40;a:3:{s:11:"flavor_text";s:215:"Mewtwo est un Pokémon créé par manipulation génétique.
+Cependant, bien que les connaissances scientifiques des
+humains aient réussi à créer son corps, elles n’ont pas pu
+doter Mewtwo d’un cœur sensible.";s:8:"language";a:2:{s:4:"name";s:2:"fr";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/5/";}s:7:"version";a:2:{s:4:"name";s:10:"omega-ruby";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/25/";}}i:41;a:3:{s:11:"flavor_text";s:199:"Mewtu ist ein Pokémon, das durch Genmanipulation
+entstanden ist. Die Menschen haben es zwar mit ihrem
+wissenschaftlichen Sachverstand erzeugt, aber nicht mit
+einem mitfühlenden Herzen ausgestattet.";s:8:"language";a:2:{s:4:"name";s:2:"de";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/6/";}s:7:"version";a:2:{s:4:"name";s:10:"omega-ruby";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/25/";}}i:42;a:3:{s:11:"flavor_text";s:155:"Mewtwo fue creado por manipulación genética. Pero, a pesar
+de que el hombre creó su cuerpo, dotar a Mewtwo de un
+corazón compasivo quedó en el olvido.";s:8:"language";a:2:{s:4:"name";s:2:"es";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/7/";}s:7:"version";a:2:{s:4:"name";s:10:"omega-ruby";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/25/";}}i:43;a:3:{s:11:"flavor_text";s:194:"Mewtwo è stato creato grazie a una manipolazione genetica.
+Tuttavia, sebbene la scienza sia riuscita a creare un corpo
+di Pokémon, ha fallito nell’intento di dare a Mewtwo
+un animo generoso.";s:8:"language";a:2:{s:4:"name";s:2:"it";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/8/";}s:7:"version";a:2:{s:4:"name";s:10:"omega-ruby";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/25/";}}i:44;a:3:{s:11:"flavor_text";s:202:"Mewtwo is a Pokémon that was created by genetic
+manipulation. However, even though the scientific power of
+humans created this Pokémon’s body, they failed to endow
+Mewtwo with a compassionate heart.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:10:"omega-ruby";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/25/";}}i:45;a:3:{s:11:"flavor_text";s:182:"遺伝子操作に　よって　つくられた　ポケモン。
+人間の　科学力で　体は　つくれても
+優しい　心を　つくることは　できなかった。";s:8:"language";a:2:{s:4:"name";s:2:"ja";s:3:"url";s:38:"https://pokeapi.co/api/v2/language/11/";}s:7:"version";a:2:{s:4:"name";s:10:"omega-ruby";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/25/";}}i:46;a:3:{s:11:"flavor_text";s:218:"いでんしそうさに　よって　つくられた　ポケモン。
+にんげんの　かがくりょくで　からだは　つくれても
+やさしい　こころを　つくることは　できなかった。";s:8:"language";a:2:{s:4:"name";s:7:"ja-Hrkt";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/1/";}s:7:"version";a:2:{s:4:"name";s:14:"alpha-sapphire";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/26/";}}i:47;a:3:{s:11:"flavor_text";s:153:"유전자조작을 통해 만들어진 포켓몬이다.
+인간은 과학의 힘으로 몸은 만들었지만
+상냥한 마음을 만들 수는 없었다.";s:8:"language";a:2:{s:4:"name";s:2:"ko";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/3/";}s:7:"version";a:2:{s:4:"name";s:14:"alpha-sapphire";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/26/";}}i:48;a:3:{s:11:"flavor_text";s:215:"Mewtwo est un Pokémon créé par manipulation génétique.
+Cependant, bien que les connaissances scientifiques des
+humains aient réussi à créer son corps, elles n’ont pas pu
+doter Mewtwo d’un cœur sensible.";s:8:"language";a:2:{s:4:"name";s:2:"fr";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/5/";}s:7:"version";a:2:{s:4:"name";s:14:"alpha-sapphire";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/26/";}}i:49;a:3:{s:11:"flavor_text";s:199:"Mewtu ist ein Pokémon, das durch Genmanipulation
+entstanden ist. Die Menschen haben es zwar mit ihrem
+wissenschaftlichen Sachverstand erzeugt, aber nicht mit
+einem mitfühlenden Herzen ausgestattet.";s:8:"language";a:2:{s:4:"name";s:2:"de";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/6/";}s:7:"version";a:2:{s:4:"name";s:14:"alpha-sapphire";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/26/";}}i:50;a:3:{s:11:"flavor_text";s:155:"Mewtwo fue creado por manipulación genética. Pero, a pesar
+de que el hombre creó su cuerpo, dotar a Mewtwo de un
+corazón compasivo quedó en el olvido.";s:8:"language";a:2:{s:4:"name";s:2:"es";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/7/";}s:7:"version";a:2:{s:4:"name";s:14:"alpha-sapphire";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/26/";}}i:51;a:3:{s:11:"flavor_text";s:194:"Mewtwo è stato creato grazie a una manipolazione genetica.
+Tuttavia, sebbene la scienza sia riuscita a creare un corpo
+di Pokémon, ha fallito nell’intento di dare a Mewtwo
+un animo generoso.";s:8:"language";a:2:{s:4:"name";s:2:"it";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/8/";}s:7:"version";a:2:{s:4:"name";s:14:"alpha-sapphire";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/26/";}}i:52;a:3:{s:11:"flavor_text";s:202:"Mewtwo is a Pokémon that was created by genetic
+manipulation. However, even though the scientific power
+of humans created this Pokémon’s body, they failed to
+endow Mewtwo with a compassionate heart.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:14:"alpha-sapphire";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/26/";}}i:53;a:3:{s:11:"flavor_text";s:182:"遺伝子操作に　よって　つくられた　ポケモン。
+人間の　科学力で　体は　つくれても
+優しい　心を　つくることは　できなかった。";s:8:"language";a:2:{s:4:"name";s:2:"ja";s:3:"url";s:38:"https://pokeapi.co/api/v2/language/11/";}s:7:"version";a:2:{s:4:"name";s:14:"alpha-sapphire";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/26/";}}i:54;a:3:{s:11:"flavor_text";s:146:"ミュウの　いでんしと　ほとんど
+おなじ。だが　おおきさも　せいかくも
+おそろしいほど　ちがっている。";s:8:"language";a:2:{s:4:"name";s:7:"ja-Hrkt";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/1/";}s:7:"version";a:2:{s:4:"name";s:15:"lets-go-pikachu";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/31/";}}i:55;a:3:{s:11:"flavor_text";s:95:"뮤의 유전자와 거의 같다.
+하지만 크기도 성격도
+무서울 정도로 다르다.";s:8:"language";a:2:{s:4:"name";s:2:"ko";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/3/";}s:7:"version";a:2:{s:4:"name";s:15:"lets-go-pikachu";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/31/";}}i:56;a:3:{s:11:"flavor_text";s:113:"身上的基因與夢幻幾乎一樣，
+但無論是體型大小還是性格
+都與夢幻有著巨大的差別。";s:8:"language";a:2:{s:4:"name";s:7:"zh-Hant";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/4/";}s:7:"version";a:2:{s:4:"name";s:15:"lets-go-pikachu";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/31/";}}i:57;a:3:{s:11:"flavor_text";s:103:"Son ADN est presque le même que celui de
+Mew, mais sa taille et son caractère sont très
+différents.";s:8:"language";a:2:{s:4:"name";s:2:"fr";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/5/";}s:7:"version";a:2:{s:4:"name";s:15:"lets-go-pikachu";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/31/";}}i:58;a:3:{s:11:"flavor_text";s:139:"Mewtu und Mew weisen sehr ähnliche Gene auf,
+doch hinsichtlich ihres Charakters und ihrer
+Größe unterscheiden sich die beiden erheblich.";s:8:"language";a:2:{s:4:"name";s:2:"de";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/6/";}s:7:"version";a:2:{s:4:"name";s:15:"lets-go-pikachu";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/31/";}}i:59;a:3:{s:11:"flavor_text";s:94:"Su ADN es casi el mismo que el de Mew.
+Sin embargo, su tamaño y carácter son muy
+diferentes.";s:8:"language";a:2:{s:4:"name";s:2:"es";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/7/";}s:7:"version";a:2:{s:4:"name";s:15:"lets-go-pikachu";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/31/";}}i:60;a:3:{s:11:"flavor_text";s:107:"Il suo DNA è quasi uguale a quello di Mew.
+Ciò nonostante, sono agli antipodi per
+dimensioni e carattere.";s:8:"language";a:2:{s:4:"name";s:2:"it";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/8/";}s:7:"version";a:2:{s:4:"name";s:15:"lets-go-pikachu";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/31/";}}i:61;a:3:{s:11:"flavor_text";s:94:"Its DNA is almost the same as Mew’s. However,
+its size and disposition are vastly different.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:15:"lets-go-pikachu";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/31/";}}i:62;a:3:{s:11:"flavor_text";s:125:"ミュウの　遺伝子と　ほとんど
+同じ。だが　大きさも　性格も
+恐ろしいほど　違っている。";s:8:"language";a:2:{s:4:"name";s:2:"ja";s:3:"url";s:38:"https://pokeapi.co/api/v2/language/11/";}s:7:"version";a:2:{s:4:"name";s:15:"lets-go-pikachu";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/31/";}}i:63;a:3:{s:11:"flavor_text";s:95:"超梦的基因几乎和梦幻
+完全一样，但是大小和
+性格却迥异得让人吃惊。";s:8:"language";a:2:{s:4:"name";s:7:"zh-Hans";s:3:"url";s:38:"https://pokeapi.co/api/v2/language/12/";}s:7:"version";a:2:{s:4:"name";s:15:"lets-go-pikachu";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/31/";}}i:64;a:3:{s:11:"flavor_text";s:146:"ミュウの　いでんしと　ほとんど
+おなじ。だが　おおきさも　せいかくも
+おそろしいほど　ちがっている。";s:8:"language";a:2:{s:4:"name";s:7:"ja-Hrkt";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/1/";}s:7:"version";a:2:{s:4:"name";s:13:"lets-go-eevee";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/32/";}}i:65;a:3:{s:11:"flavor_text";s:95:"뮤의 유전자와 거의 같다.
+하지만 크기도 성격도
+무서울 정도로 다르다.";s:8:"language";a:2:{s:4:"name";s:2:"ko";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/3/";}s:7:"version";a:2:{s:4:"name";s:13:"lets-go-eevee";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/32/";}}i:66;a:3:{s:11:"flavor_text";s:113:"身上的基因與夢幻幾乎一樣，
+但無論是體型大小還是性格
+都與夢幻有著巨大的差別。";s:8:"language";a:2:{s:4:"name";s:7:"zh-Hant";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/4/";}s:7:"version";a:2:{s:4:"name";s:13:"lets-go-eevee";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/32/";}}i:67;a:3:{s:11:"flavor_text";s:103:"Son ADN est presque le même que celui de
+Mew, mais sa taille et son caractère sont très
+différents.";s:8:"language";a:2:{s:4:"name";s:2:"fr";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/5/";}s:7:"version";a:2:{s:4:"name";s:13:"lets-go-eevee";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/32/";}}i:68;a:3:{s:11:"flavor_text";s:139:"Mewtu und Mew weisen sehr ähnliche Gene auf,
+doch hinsichtlich ihres Charakters und ihrer
+Größe unterscheiden sich die beiden erheblich.";s:8:"language";a:2:{s:4:"name";s:2:"de";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/6/";}s:7:"version";a:2:{s:4:"name";s:13:"lets-go-eevee";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/32/";}}i:69;a:3:{s:11:"flavor_text";s:94:"Su ADN es casi el mismo que el de Mew.
+Sin embargo, su tamaño y carácter son muy
+diferentes.";s:8:"language";a:2:{s:4:"name";s:2:"es";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/7/";}s:7:"version";a:2:{s:4:"name";s:13:"lets-go-eevee";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/32/";}}i:70;a:3:{s:11:"flavor_text";s:107:"Il suo DNA è quasi uguale a quello di Mew.
+Ciò nonostante, sono agli antipodi per
+dimensioni e carattere.";s:8:"language";a:2:{s:4:"name";s:2:"it";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/8/";}s:7:"version";a:2:{s:4:"name";s:13:"lets-go-eevee";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/32/";}}i:71;a:3:{s:11:"flavor_text";s:94:"Its DNA is almost the same as Mew’s. However,
+its size and disposition are vastly different.";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:7:"version";a:2:{s:4:"name";s:13:"lets-go-eevee";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/32/";}}i:72;a:3:{s:11:"flavor_text";s:125:"ミュウの　遺伝子と　ほとんど
+同じ。だが　大きさも　性格も
+恐ろしいほど　違っている。";s:8:"language";a:2:{s:4:"name";s:2:"ja";s:3:"url";s:38:"https://pokeapi.co/api/v2/language/11/";}s:7:"version";a:2:{s:4:"name";s:13:"lets-go-eevee";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/32/";}}i:73;a:3:{s:11:"flavor_text";s:95:"超梦的基因几乎和梦幻
+完全一样，但是大小和
+性格却迥异得让人吃惊。";s:8:"language";a:2:{s:4:"name";s:7:"zh-Hans";s:3:"url";s:38:"https://pokeapi.co/api/v2/language/12/";}s:7:"version";a:2:{s:4:"name";s:13:"lets-go-eevee";s:3:"url";s:37:"https://pokeapi.co/api/v2/version/32/";}}}s:17:"form_descriptions";a:0:{}s:16:"forms_switchable";b:1;s:11:"gender_rate";i:-1;s:6:"genera";a:10:{i:0;a:2:{s:5:"genus";s:24:"いでんしポケモン";s:8:"language";a:2:{s:4:"name";s:7:"ja-Hrkt";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/1/";}}i:1;a:2:{s:5:"genus";s:15:"유전포켓몬";s:8:"language";a:2:{s:4:"name";s:2:"ko";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/3/";}}i:2;a:2:{s:5:"genus";s:15:"基因寶可夢";s:8:"language";a:2:{s:4:"name";s:7:"zh-Hant";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/4/";}}i:3;a:2:{s:5:"genus";s:20:"Pokémon Génétique";s:8:"language";a:2:{s:4:"name";s:2:"fr";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/5/";}}i:4;a:2:{s:5:"genus";s:20:"Genmutanten-Pokémon";s:8:"language";a:2:{s:4:"name";s:2:"de";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/6/";}}i:5;a:2:{s:5:"genus";s:18:"Pokémon Genético";s:8:"language";a:2:{s:4:"name";s:2:"es";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/7/";}}i:6;a:2:{s:5:"genus";s:17:"Pokémon Genetico";s:8:"language";a:2:{s:4:"name";s:2:"it";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/8/";}}i:7;a:2:{s:5:"genus";s:16:"Genetic Pokémon";s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}}i:8;a:2:{s:5:"genus";s:24:"いでんしポケモン";s:8:"language";a:2:{s:4:"name";s:2:"ja";s:3:"url";s:38:"https://pokeapi.co/api/v2/language/11/";}}i:9;a:2:{s:5:"genus";s:15:"基因宝可梦";s:8:"language";a:2:{s:4:"name";s:7:"zh-Hans";s:3:"url";s:38:"https://pokeapi.co/api/v2/language/12/";}}}s:10:"generation";a:2:{s:4:"name";s:12:"generation-i";s:3:"url";s:39:"https://pokeapi.co/api/v2/generation/1/";}s:11:"growth_rate";a:2:{s:4:"name";s:4:"slow";s:3:"url";s:40:"https://pokeapi.co/api/v2/growth-rate/1/";}s:7:"habitat";a:2:{s:4:"name";s:4:"rare";s:3:"url";s:44:"https://pokeapi.co/api/v2/pokemon-habitat/5/";}s:22:"has_gender_differences";b:0;s:13:"hatch_counter";i:120;s:2:"id";i:150;s:7:"is_baby";b:0;s:12:"is_legendary";b:1;s:11:"is_mythical";b:0;s:4:"name";s:6:"mewtwo";s:5:"names";a:11:{i:0;a:2:{s:8:"language";a:2:{s:4:"name";s:7:"ja-Hrkt";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/1/";}s:4:"name";s:15:"ミュウツー";}i:1;a:2:{s:8:"language";a:2:{s:4:"name";s:7:"roomaji";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/2/";}s:4:"name";s:6:"Mewtwo";}i:2;a:2:{s:8:"language";a:2:{s:4:"name";s:2:"ko";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/3/";}s:4:"name";s:6:"뮤츠";}i:3;a:2:{s:8:"language";a:2:{s:4:"name";s:7:"zh-Hant";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/4/";}s:4:"name";s:6:"超夢";}i:4;a:2:{s:8:"language";a:2:{s:4:"name";s:2:"fr";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/5/";}s:4:"name";s:6:"Mewtwo";}i:5;a:2:{s:8:"language";a:2:{s:4:"name";s:2:"de";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/6/";}s:4:"name";s:5:"Mewtu";}i:6;a:2:{s:8:"language";a:2:{s:4:"name";s:2:"es";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/7/";}s:4:"name";s:6:"Mewtwo";}i:7;a:2:{s:8:"language";a:2:{s:4:"name";s:2:"it";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/8/";}s:4:"name";s:6:"Mewtwo";}i:8;a:2:{s:8:"language";a:2:{s:4:"name";s:2:"en";s:3:"url";s:37:"https://pokeapi.co/api/v2/language/9/";}s:4:"name";s:6:"Mewtwo";}i:9;a:2:{s:8:"language";a:2:{s:4:"name";s:2:"ja";s:3:"url";s:38:"https://pokeapi.co/api/v2/language/11/";}s:4:"name";s:15:"ミュウツー";}i:10;a:2:{s:8:"language";a:2:{s:4:"name";s:7:"zh-Hans";s:3:"url";s:38:"https://pokeapi.co/api/v2/language/12/";}s:4:"name";s:6:"超梦";}}s:5:"order";i:182;s:19:"pal_park_encounters";a:1:{i:0;a:3:{s:4:"area";a:2:{s:4:"name";s:5:"field";s:3:"url";s:42:"https://pokeapi.co/api/v2/pal-park-area/2/";}s:10:"base_score";i:90;s:4:"rate";i:3;}}s:15:"pokedex_numbers";a:7:{i:0;a:2:{s:12:"entry_number";i:150;s:7:"pokedex";a:2:{s:4:"name";s:8:"national";s:3:"url";s:36:"https://pokeapi.co/api/v2/pokedex/1/";}}i:1;a:2:{s:12:"entry_number";i:150;s:7:"pokedex";a:2:{s:4:"name";s:5:"kanto";s:3:"url";s:36:"https://pokeapi.co/api/v2/pokedex/2/";}}i:2;a:2:{s:12:"entry_number";i:249;s:7:"pokedex";a:2:{s:4:"name";s:14:"original-johto";s:3:"url";s:36:"https://pokeapi.co/api/v2/pokedex/3/";}}i:3;a:2:{s:12:"entry_number";i:254;s:7:"pokedex";a:2:{s:4:"name";s:13:"updated-johto";s:3:"url";s:36:"https://pokeapi.co/api/v2/pokedex/7/";}}i:4;a:2:{s:12:"entry_number";i:196;s:7:"pokedex";a:2:{s:4:"name";s:16:"conquest-gallery";s:3:"url";s:37:"https://pokeapi.co/api/v2/pokedex/11/";}}i:5;a:2:{s:12:"entry_number";i:151;s:7:"pokedex";a:2:{s:4:"name";s:14:"kalos-mountain";s:3:"url";s:37:"https://pokeapi.co/api/v2/pokedex/14/";}}i:6;a:2:{s:12:"entry_number";i:150;s:7:"pokedex";a:2:{s:4:"name";s:12:"letsgo-kanto";s:3:"url";s:37:"https://pokeapi.co/api/v2/pokedex/26/";}}}s:5:"shape";a:2:{s:4:"name";s:7:"upright";s:3:"url";s:42:"https://pokeapi.co/api/v2/pokemon-shape/6/";}s:9:"varieties";a:3:{i:0;a:2:{s:10:"is_default";b:1;s:7:"pokemon";a:2:{s:4:"name";s:6:"mewtwo";s:3:"url";s:38:"https://pokeapi.co/api/v2/pokemon/150/";}}i:1;a:2:{s:10:"is_default";b:0;s:7:"pokemon";a:2:{s:4:"name";s:13:"mewtwo-mega-x";s:3:"url";s:40:"https://pokeapi.co/api/v2/pokemon/10043/";}}i:2;a:2:{s:10:"is_default";b:0;s:7:"pokemon";a:2:{s:4:"name";s:13:"mewtwo-mega-y";s:3:"url";s:40:"https://pokeapi.co/api/v2/pokemon/10044/";}}}}}

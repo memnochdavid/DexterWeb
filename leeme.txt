@@ -1,0 +1,89 @@
+BACKEND
+
+    Dependencias
+        php -v
+        symfony -v
+        composer -v
+
+
+        Paquetes Symfony y librerías usadas
+
+        1. Symfony Web App Skeleton (al crear el proyecto con --webapp):
+            symfony new dexter-backend --webapp
+
+        2. Doctrine ORM (para la base de datos de usuarios):
+            composer require symfony/orm-pack
+            composer require --dev symfony/maker-bundle
+
+            Comprobar:
+                php bin/console doctrine:database:info
+
+        3. LexikJWTAuthenticationBundle (para JWT / login seguro):
+            composer require "lexik/jwt-authentication-bundle"
+
+            Comprobar:
+                php bin/console debug:config lexik_jwt_authentication
+
+        4. CORS / JSON API (usando Symfony normal, soporta JSON nativamente).
+
+    ------------------------------------------------------------------------------------------
+
+FRONTEND
+
+    Frontend (React) — por instalar si vas a hacerlo después
+
+        create-react-app o Vite
+
+        axios o fetch para llamadas a la API
+
+        react-router-dom para rutas
+
+
+    ------------------------------------------------------------------------------------------
+
+
+HASTA AHORA CONSEGUIDO:
+    Backend (Symfony + PHP)
+
+        1. Registro y login de usuarios:
+
+            - Endpoint /api/register → crea usuarios.
+            - Endpoint /api/login_check → devuelve JWT.
+            - JWT con expiración configurable (token_ttl).
+
+        2. Protección de rutas con JWT:
+
+            - /api/pokemon/... requiere token válido.
+            - Gestión de errores 401 / token expirado.
+
+        3. Conexión con PokéAPI:
+
+            + Servicio PokeApiService que obtiene:
+
+                - Pokémon por nombre o ID
+                - Estadísticas, tipos, habilidades
+                - Evoluciones completas (recursivas)
+                - Descripción y nombres traducidos según lang
+
+                + Imágenes:
+
+                    - front_default, front_shiny
+                    - thumbnail (Pokémon Home)
+                    - official_artwork (arte oficial)
+
+        4. Soporte multi-idioma:
+
+            - Query param ?lang=es|en|de
+            - Traduce descripción, habilidades y tipos.
+
+        5. Controlador limpio y modular:
+
+            - PokemonController con inyección de PokeApiService.
+            - Request correctamente inyectada.
+
+
+-----------------------------------------------------------------------------------------------
+
+sudo dnf install nodejs npm
+
+

@@ -3,7 +3,7 @@ import { login, getPokemon } from "./api";
 
 function App() {
     const [email, setEmail] = useState("demo@dexter.com");
-    const [password, setPassword] = useState("demo123");
+    const [password, setPassword] = useState("123456");
     const [token, setToken] = useState(null);
     const [pokemon, setPokemon] = useState(null);
     const [nombrePokemon, setNombrePokemon] = useState("pikachu");
@@ -51,8 +51,9 @@ function App() {
                 {pokemon && (
                     <div style={{ marginTop: 20 }}>
                         <h3>{pokemon.nombre} (#{pokemon.id})</h3>
-                        <p>Tipos: {pokemon.tipos.join(", ")}</p>
-                        <p>Habilidades: {pokemon.habilidades.join(", ")}</p>
+                        <p><strong>Descripción:</strong> {pokemon.descripcion || "No hay descripción disponible"}</p>
+                        <p><strong>Tipos:</strong> {pokemon.tipos.length ? pokemon.tipos.join(", ") : "No disponible"}</p>
+                        <p><strong>Habilidades:</strong> {pokemon.habilidades.length ? pokemon.habilidades.join(", ") : "No disponible"}</p>
                         <img src={pokemon.imagen} alt={pokemon.nombre} width={200} />
                         <img src={pokemon.miniatura} alt={pokemon.nombre} width={50} />
                     </div>

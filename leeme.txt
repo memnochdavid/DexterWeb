@@ -84,6 +84,38 @@ HASTA AHORA CONSEGUIDO:
 
 -----------------------------------------------------------------------------------------------
 
-sudo dnf install nodejs npm
+para arrancar:
+    un terminar para:
+        symfony server:log
+    un terminal para:
+        symfony server:start
+        symfony server:stop
+    un terminal para:
+        desde DexterWeb/frontend/
+        npm run dev
 
 
+
+estructura actual:
+frontend/
+ ├── public/
+ │    └── index.html            # equivalente a index.php
+ ├── src/
+ │    ├── pages/                # páginas “separadas”
+ │    │    ├── Home.jsx         # página principal
+ │    │    ├── About.jsx
+ │    │    ├── Contact.jsx
+ │    │    └── Productos.jsx
+ │    ├── components/           # includes (header, footer, tarjetas, etc.)
+ │    │    ├── Header.jsx
+ │    │    ├── Footer.jsx
+ │    │    └── PokemonCard.jsx
+ │    ├── config/               # configuraciones JS
+ │    │    └── apiConfig.js
+ │    ├── assets/
+ │    │    ├── css/
+ │    │    ├── js/
+ │    │    └── img/
+ │    ├── App.jsx
+ │    └── main.jsx
+ └── package.json

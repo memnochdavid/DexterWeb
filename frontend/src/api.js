@@ -29,3 +29,7 @@ export async function getPokemonDetails(url) {
     if (!response.ok) throw new Error("Error al obtener detalles del Pokémon");
     return await response.json();
 }
+export async function getPokemonSpecies(url) {
+    const res = await fetch(url);
+    return await res.json();
+}

@@ -1,4 +1,5 @@
-import typeColors from "../utils/typeColors";
+import typeColors from "../utils/typeColors.js";
+import functions from "../utils/functions.js";
 import "../assets/css/TypeCard.css";
 
 export default function TypeCard({ tipo }) {
@@ -26,6 +27,7 @@ export default function TypeCard({ tipo }) {
         ghost: "fantasma"
     };
 
+
     const tipoEsp = traducciones[tipo.toLowerCase()] || tipo;
     const color = typeColors[tipo.toLowerCase()] || "#aaa";
     const imgSrc = `/src/assets/img/tipos/${tipo}.svg`;
@@ -36,7 +38,7 @@ export default function TypeCard({ tipo }) {
             style={{ backgroundColor: color }}
         >
             <img src={imgSrc} alt={tipoEsp} className="type-icon" />
-            <span className="type-name">{tipoEsp}</span>
+            <p className="type-name">{functions.capitalize(tipoEsp)}</p>
         </div>
     );
 }

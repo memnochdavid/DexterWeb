@@ -3,8 +3,14 @@
 }
 
 .pokemon-grid {
-    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    max-width: 1200px; /* máximo ancho del grid */
+    margin: 0 auto;
 }
+
 
 .pokemon-card {
     transition: transform 0.3s;
@@ -12,4 +18,45 @@
 
 .pokemon-card:hover {
     transform: scale(1.05);
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 25px auto 10px;
+    gap: 8px;
+}
+
+.pagination button {
+    border: none;
+    background: #eee;
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.pagination button:hover:not(:disabled) {
+    background: #ccc;
+    transform: scale(1.05);
+}
+
+.pagination button.active {
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.ellipsis {
+    color: #666;
+    padding: 0 5px;
+    font-weight: bold;
+    user-select: none;
 }

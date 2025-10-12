@@ -1,6 +1,7 @@
-import typeColors from "../utils/typeColors";
+import typeColors from "../utils/typeColors.js";
 import "../assets/css/PokemonCard.css"; // por si quieres estilizarlo más
 import TypeCard from "./TypeCard";
+import functions from "../utils/functions.js";
 
 export default function PokemonCard({ pokemon }) {
     if (!pokemon) return null;
@@ -25,7 +26,7 @@ export default function PokemonCard({ pokemon }) {
 
             <div className="lower-container">
                 <div>
-                    <h3>#{pokemon.id} {pokemon.nombre}</h3>
+                    <h3>#{functions.formatPokeNum(pokemon.id)} {pokemon.nombre}</h3>
                     <h4>
                         {/*Tipos: {pokemon.tipos.join(", ") || "No disponible"}*/}
                         <div className="types-container">

@@ -1,0 +1,132 @@
+/* ---------- Tarjeta horizontal responsive ---------- */
+
+.card-horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 15px auto;
+    /*padding-right: 15px;*/
+    width: 100%;
+    max-width: 700px;
+    min-height: 160px;
+    color: #fff;
+    border: 2px solid black;
+    padding: 3px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-horizontal:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+.image-container-horizontal {
+    flex: 0 0 130px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /*padding: 10px;*/
+}
+
+.image-container-horizontal img {
+    /*width: 100px;*/
+    /*height: 100px;*/
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+.image-container-horizontal img:hover {
+    transform: scale(1.1);
+}
+
+.info-container-horizontal {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px 5%; /* top/bottom 15px, left/right 5% */
+    box-sizing: border-box;
+}
+
+.name-type h3,
+.name-type h4 {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.name-type h3 {
+    font-size: 1.4rem;
+}
+
+.name-type h4 {
+    font-size: 1rem;
+    opacity: 0.85;
+}
+
+.types-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+/* ---------- Responsividad ---------- */
+@media (max-width: 1200px) {
+    .card-horizontal {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        min-height: auto;
+        max-width: 90%;
+    }
+
+    .image-container-horizontal {
+        flex: 0 0 auto;
+        padding: 15px 0;
+    }
+
+    .image-container-horizontal img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .info-container-horizontal {
+        padding: 10px 15px; /* top/bottom 10px, left/right 15px */
+    }
+
+    .name-type h3 {
+        font-size: 1.2rem;
+    }
+
+    .name-type h4 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-horizontal {
+        max-width: 100%;
+        margin: 10px;
+        border-radius: 12px;
+    }
+
+    .image-container-horizontal img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .name-type h3 {
+        font-size: 1rem;
+    }
+
+    .types-container {
+        justify-content: center;
+    }
+
+    .info-container-horizontal {
+        padding: 10px 12px; /* ajustar según se necesite */
+    }
+}

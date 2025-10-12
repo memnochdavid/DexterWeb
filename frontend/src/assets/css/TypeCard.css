@@ -1,17 +1,20 @@
 .type-card {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    gap: 8px;
+    justify-content: center; /* centra texto e ícono */
+    gap: 6px;
     border-radius: 12px;
     padding: 6px 10px;
     color: white;
     font-weight: bold;
     font-family: sans-serif;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
-    min-width: 110px;
-    max-width: 130px;
     transition: transform 0.15s ease;
+
+    min-width: 100px;  /* ancho mínimo */
+    max-width: 120px;  /* ancho máximo */
+    width: 100%;       /* para que se ajuste dentro del contenedor */
+    text-align: center; /* centrar texto si ocupa varias líneas */
 }
 
 .type-card:hover {
@@ -21,9 +24,24 @@
 .type-icon {
     width: 28px;
     height: 28px;
+    flex-shrink: 0; /* que el ícono no se encoja */
 }
 
 .type-name {
     font-size: 0.9rem;
     letter-spacing: 0.5px;
+    white-space: nowrap; /* opcional: evita que el texto se rompa */
+    overflow: hidden;
+    text-overflow: ellipsis; /* corta con ... si es muy largo */
+}
+@media (max-width: 480px) {
+    .type-card {
+        .type-name{
+            display: none;
+        }
+        min-width: 60px;  /* ancho mínimo */
+        max-width: 80px;  /* ancho máximo */
+        width: 80%;       /* para que se ajuste dentro del contenedor */
+        text-align: center; /* centrar texto si ocupa varias líneas */
+    }
 }

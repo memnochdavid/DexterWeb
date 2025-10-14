@@ -5,6 +5,8 @@ import PokemonCard from "../components/PokemonCard";
 import PokemonCardLista from "../components/PokemonCardLista";
 import '../assets/css/Home.css';
 
+
+
 export default function Home() {
     const {token} = useAuth();
     const [nombrePokemon, setNombrePokemon] = useState("pikachu");

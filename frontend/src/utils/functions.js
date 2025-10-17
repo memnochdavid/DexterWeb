@@ -1,10 +1,64 @@
+import { megaPokemon } from './Dictionaries.js';
 function capitalize(str) {
     return str[0].toUpperCase() + str.slice(1);
 }
-function getMiniatura(id) {
-    const idPadded = String(id).padStart(4, "0");
-    return `https://resource.pokemon-home.com/battledata/img/pokei128/icon${idPadded}_f00_s0.png`;
+function getMiniatura(id, nombre) {
+    let forma = "";
+
+    switch (extraerMega(nombre)) {
+        case "-mega":
+            forma = "f01";
+            break;
+        case "-mega-x":
+            forma = "f01";
+            break;
+        case "-mega-y":
+            forma = "f02";
+            break;
+        case "-hisui":
+            forma = "f01";
+            break;
+        case "-galar":
+            forma = "f01";
+            break;
+        case "-paldea":
+            forma = "f01";
+            break;
+        case "alola":
+            forma = "f01";
+            break;
+        default:
+            forma = "f00";
+            break;
+    }
+
+    let idPadded = String(id).padStart(4, "0");
+    let plantilla = `https://resource.pokemon-home.com/battledata/img/pokei128/icon${idPadded}_${forma}_s0.png`;
+
+    if (!nombre.includes("-mega") && !nombre.includes("-gmax")) {
+        return plantilla;
+    } else {
+        let baseName = nombre
+            .replace("-mega-x", "")
+            .replace("-mega-y", "")
+            .replace("-mega", "")
+            .replace("-hisui", "")
+            .replace("-galar", "")
+            .replace("-alola", "")
+            .replace("-paldea", "")
+            .toLowerCase();
+
+        // const megaPokemon = JSON.parse(localStorage.getItem("pokemonIndex") || "{}").data || {};
+        const newId = megaPokemon[baseName];
+
+        if (!newId) return plantilla;
+
+        const newIdPadded = String(newId).padStart(4, "0");
+        plantilla = `https://resource.pokemon-home.com/battledata/img/pokei128/icon${newIdPadded}_${forma}_s0.png`;
+        return plantilla;
+    }
 }
+
 
 function formatPokeNum(id, opc = "format") {
     if (opc === "format") {
@@ -25,7 +79,12 @@ function formatPokeNum(id, opc = "format") {
         return num;
     }
 }
-
+function extraerMega(nombre) {
+    // La expresión busca "-mega", opcionalmente seguido de "-x" o "-y"
+    // const resultado = nombre.match(/-mega(-x|-y)?/i);
+    const resultado = nombre.match(/-(mega(-x|-y)?|gmax|alola|galar|hisui)/i);
+    return resultado ? resultado[0] : null;
+}
 
 
 export default {

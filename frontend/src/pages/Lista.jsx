@@ -36,7 +36,7 @@ export default function Lista() {
             }
 
             // Si no hay cache o está viejo → vuelve a cargar
-            console.log("🆕 Descargando índice de PokéAPI...");
+            // console.log("🆕 Descargando índice de PokéAPI...");
             const apiData = await getPokemonList(10000, 0);
             const dict = {};
             apiData.results.forEach((p) => {
@@ -117,8 +117,8 @@ export default function Lista() {
     };
 
     // 🖼️ Render
-    if (indexLoading)
-        return <p style={{ textAlign: "center" }}>Cargando índice Pokémon...</p>;
+    // if (indexLoading)
+    //     return <p style={{ textAlign: "center" }}>Cargando índice Pokémon...</p>;
 
     return (
         <div className="pokemon-list-page" style={{ padding: "20px" }}>
@@ -133,11 +133,11 @@ export default function Lista() {
                 />
             </div>
 
-            <p style={{ textAlign: "center", marginTop: "10px" }}>
-                {loading
-                    ? "Cargando..."
-                    : `Mostrando ${filteredIds.length} resultados`}
-            </p>
+            {/*<p style={{ textAlign: "center", marginTop: "10px" }}>*/}
+            {/*    {loading*/}
+            {/*        ? "Cargando..."*/}
+            {/*        : `Mostrando ${filteredIds.length} resultados`}*/}
+            {/*</p>*/}
 
             {/* 🧱 Lista */}
             <div
@@ -153,12 +153,13 @@ export default function Lista() {
                 {pageDetails.map((pokemon) => (
                     <PokemonCardLista
                         key={pokemon.id}
+                        megaPokemon={index} // <--- pasamos el diccionario
                         pokemon={{
                             id: functions.formatPokeNum(pokemon.id),
                             nombre: pokemon.name,
                             tipos: pokemon.types.map((t) => t.type.name),
                             habilidades: pokemon.abilities.map((a) => a.ability.name),
-                            miniatura: functions.getMiniatura(pokemon.id),
+                            miniatura: functions.getMiniatura(pokemon.id, pokemon.name, index),
                         }}
                     />
                 ))}

@@ -7,6 +7,8 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 
+include "../../Utils/adaptaNombre.php";
+
 class PokemonController extends AbstractController
 {
     #[Route('/api/pokemon/{name}', name: 'api_pokemon_get', methods: ['GET'])]
@@ -70,7 +72,8 @@ class PokemonController extends AbstractController
 
         // Miniatura según patrón
         $idPadded = str_pad($pokemon['id'], 4, '0', STR_PAD_LEFT);
-        $miniatura = "https://resource.pokemon-home.com/battledata/img/pokei128/icon{$idPadded}_f00_s0.png";
+//        $miniatura = "https://resource.pokemon-home.com/battledata/img/pokei128/icon{$idPadded}_f00_s0.png";
+        $miniatura = adaptaNombreEspecial($pokemon['name'], $pokemon['id']);
 
         return $this->json([
             'id' => $pokemon['id'],

@@ -459,6 +459,9 @@
       <argument type="service" id=".debug.http_client"/>
       <argument type="service" id="cache.app"/>
     </service>
+    <service id="App\Utils\adaptaNombre" class="App\Utils\adaptaNombre" autowire="true" autoconfigure="true">
+      <tag name="container.error" message="The autoloader expected class &quot;App\Utils\adaptaNombre&quot; to be defined in file &quot;/home/usua5pc13/Escritorio/servidores entorno cliente/DexterWeb/backend/vendor/composer/../../src/Utils/adaptaNombre.php&quot;. The file was found but the class was not in it, the class name or namespace probably has a typo."/>
+    </service>
     <service id="argument_metadata_factory" class="Symfony\Component\HttpKernel\ControllerMetadata\ArgumentMetadataFactory"/>
     <service id="argument_resolver.backed_enum_resolver" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\BackedEnumValueResolver">
       <tag priority="100" name="Symfony\Component\HttpKernel\Controller\ArgumentResolver\BackedEnumValueResolver">controller.argument_value_resolver</tag>
